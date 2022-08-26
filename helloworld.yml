@@ -6,3 +6,8 @@
  
   - name: Hello World!
     shell: echo "Hi! Tower is working."
+    
+  - name: Creates directory
+    file:
+       path: /opt/ansibletower
+       state: directory
