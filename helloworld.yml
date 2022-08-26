@@ -1,6 +1,6 @@
 ---
 - name: Hello World!
-  sudo: yes
+  become: yes
   hosts: all
  
   tasks:
